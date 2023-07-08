@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+}
+
+.nav-container{
+    background-color: rgba(172, 166, 166);
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 20px;
+    cursor: pointer;
+}
+
+.menus{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
