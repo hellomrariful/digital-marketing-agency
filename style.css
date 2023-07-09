@@ -1,19 +1,244 @@
-*{
+* {
     margin: 0px;
 }
 
-.nav-container{
-    background-color: rgba(172, 166, 166);
+.nav-container {
+    background-color: rgb(206, 189, 189);
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    height: 20px;
+    /* height: 25px; */
     cursor: pointer;
 }
 
-.menus{
+.menus {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-size: large;
 }
+
+/* main section */
+
+.banner-section {
+    height: 100vh;
+    background-image: url(/asset/image/background.jpg), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    text-align: center;
+    display: flex;
+    padding-bottom: 120px;
+    margin: 100pxx;
+
+}
+
+.digital-agency {
+    width: 100%;
+    margin: auto;
+}
+
+.description {
+    color: white;
+}
+
+.button {
+    padding: 10px;
+}
+
+.btn {
+    padding: 15px 35px;
+    ;
+    font-size: 16px;
+    border: none;
+    margin: 5px;
+
+}
+
+.btn-primary {
+    background-color: rgb(245, 44, 44);
+    color: white;
+
+}
+
+/* About Section */
+
+.service-container {
+    height: 100vh;
+    background-image: url(/asset//image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    display: flex;
+    align-items: center;
+    color: white;
+    background-repeat: no-repeat;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+
+    /* width: 100%;
+    height: 100vh;
+    background-image: url(./asset/image/footer-bg.png),linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+    color: white;
+    padding-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+
+}
+
+.about-container {
+    color: rgb(190, 207, 208);
+    padding: 40px;
+    margin-left: 200px;
+
+}
+
+.my-skill {
+    margin-bottom: 20px;
+}
+
+.description-service {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 75%;
+
+
+}
+
+.service-list {
+    font-size: 18px;
+    padding: 22px;
+}
+
+.skill {
+    background-color: white;
+    color: black;
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+    text-align: center;
+    padding: 50px;
+    margin-top: 10px;
+}
+
+.code-logo {
+    width: 100px;
+    padding: 20px;
+
+}
+
+.skill-container {
+    display: flex;
+    gap: 10px;
+    column-gap: 10px;
+    padding: 300px;
+
+
+}
+
+/* this is news section */
+
+.blogs-title {
+    font-size: 50px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.blog-box {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.description-blog {
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+}
+
+
+.blog {
+    width: 350px;
+    height: 430px;
+    background: white;
+    box-shadow: 4px 4px 8px gray;
+    border-radius: 10px;
+}
+
+.blog-img {
+    width: 350px;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.blog-text {
+    padding: 15px;
+}
+
+.blog-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(54, 53, 53);
+}
+
+.blog-description {
+    font-size: 18px;
+    color: rgb(76, 72, 72);
+    margin-top: 15px;
+}
+
+.blogs {
+    margin-top: 35px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+}
+
+/* footer section */
+
+.footer-container {
+    height: 60vh;
+    background-image: url(/asset//image/footer-bg.png), linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.9));
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-blend-mode: overlay;
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.description-footer {
+    line-height: 1.8em;
+
+}
+
+.logo-footer {
+    margin-bottom: 10px;
+}
+
+.social-icon {
+    margin-top: 20px;
+
+}
+
+.footer-title {
+    margin-bottom: 30px;
+}
+
+.copy {
+    text-align: center;
+    padding: 15px;
+}
+
+.contact-footer {}
